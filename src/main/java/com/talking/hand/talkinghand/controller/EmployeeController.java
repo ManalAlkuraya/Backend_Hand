@@ -9,6 +9,8 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 import java.util.Optional;
+
+@CrossOrigin(origins = "https://talkinghand.herokuapp.com/")
 @RestController
 @RequestMapping(path="Employee")
 public class EmployeeController {
